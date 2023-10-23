@@ -6,16 +6,16 @@ const Alexa = require('ask-sdk-core');
 
 const STREAMS = [
   {
-    'token': 'hippynet-radio-1',
-    'url': 'https://stream.zeno.fm/efe91skxn18uv.m3u',
+    'token': 'starpoint-radio-1',
+    'url': 'https://stream2.hippynet.co.uk:8084/stream.mp3',
     'metadata': {
-      'title': 'Dabble Radio',
-      'subtitle': 'Music for coders',
+      'title': 'Starpoint Radio',
+      'subtitle': 'Soul music at your service.',
       'art': {
         'sources': [
           {
-            'contentDescription': 'Hippynet Radio',
-            'url': 'https://s3.amazonaws.com/cdn.dabblelab.com/img/audiostream-starter-512x512.png',
+            'contentDescription': 'Starpoint Radio',
+            'url': 'https://s3.eu-central-1.wasabisys.com/autopod-public/hippynet-alexa/starpoint-512.png',
             'widthPixels': 512,
             'heightPixels': 512,
           },
@@ -24,8 +24,8 @@ const STREAMS = [
       'backgroundImage': {
         'sources': [
           {
-            'contentDescription': 'Hippynet Radio',
-            'url': 'https://s3.amazonaws.com/cdn.dabblelab.com/img/wayfarer-on-beach-1200x800.png',
+            'contentDescription': 'Starpoint Radio',
+            'url': 'https://s3.eu-central-1.wasabisys.com/autopod-public/hippynet-alexa/starpoint-1300.png',
             'widthPixels': 1200,
             'heightPixels': 800,
           },
